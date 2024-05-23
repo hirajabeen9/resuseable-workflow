@@ -1,6 +1,6 @@
 name: Reusable Workflow
 on:
-  workflow-call:
+  workflow_call:
     inputs:
       name:
         description: 'Input Description'
