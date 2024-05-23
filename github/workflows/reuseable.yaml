@@ -26,4 +26,4 @@ jobs:
       - name: Display Input Name
         run: echo '${{ toJson(inputs.name) }}'
       - name: Display Access-Token Secrets
-        run: echo '${{ toJson() }}'
+        run: echo '${{ toJson(secrets.access-token) }}'
